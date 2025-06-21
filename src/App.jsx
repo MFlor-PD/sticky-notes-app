@@ -1,8 +1,13 @@
-function App() {
+import React from 'react'
+import { ColorProvider } from './context/ColorContext'
+import NoteBoard from './components/NoteBoard'
+
+const App = () => {
   return (
-    <div className="app-container">
+    <ColorProvider>
       <h1>🗒️ Sticky Notes</h1>
-    </div>
+      <NoteBoard />
+    </ColorProvider>
   )
 }
 
