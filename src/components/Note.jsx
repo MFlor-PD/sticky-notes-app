@@ -2,7 +2,7 @@ import React from 'react'
 
 const Note = ({ id, text, color, onDelete }) => {
   return (
-    <div style={{ backgroundColor: color, padding: '10px', margin: '10px' }}>
+    <div className="note" style={{ backgroundColor: color }}>
       <p>{text}</p>
       <button onClick={() => onDelete(id)}>Eliminar</button>
     </div>

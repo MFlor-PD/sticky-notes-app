@@ -5,7 +5,7 @@ const ColorSelector = () => {
   const { color, setColor } = useColor()
 
   return (
-    <div>
+    <div className="color-selector">
       <label>Selecciona un color: </label>
       <input
         type="color"
