@@ -1,6 +1,7 @@
 import React from 'react'
 import { ColorProvider } from './context/ColorContext'
 import NoteBoard from './components/NoteBoard'
+import './App.css'
 
 const App = () => {
   return (
