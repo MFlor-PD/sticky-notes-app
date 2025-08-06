@@ -11,6 +11,9 @@ const ColorSelector = () => {
         type="color"
         value={color}
         onChange={(e) => setColor(e.target.value)}
+        style={{
+        borderRadius: "10px"
+        }}
       />
     </div>
   )
